@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100px;
+    margin: 0;
+    background-image: url(imagens/mainbackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.intro {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    width: 1100px;
+    padding: 5px;
+    border: 15px solid rgb(28, 70, 97);
+    border-style: ridge;
+    border-radius: 15px;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1100px;
+    padding: 30px;
+    border: 15px solid rgb(24, 59, 82);
+    border-style: ridge;
+    border-radius: 15px;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.artworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    width: 1100px;
+    padding: 30px;
+    border: 15px solid rgb(18, 46, 63);
+    border-style: ridge;
+    border-radius: 15px;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.artworks p {
+    flex-basis: 100%;
+    width: 100%;
+    margin: 10px 0;
+}
+p {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.voltaraotopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1100px;
+    padding: 10px;
+    border: 15px solid rgb(18, 46, 63);
+    border-style: ridge;
+    border-radius: 15px;
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.miniboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:static;
+
+    width: 1000px;
+    padding: 5px;
+
+    border: 15px ridge rgb(28, 70, 97);
+    border-radius: 15px;
+
+    background-image: url("imagens/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+img {
+    border-radius: 5px;
+    border-color: black;    
+}
